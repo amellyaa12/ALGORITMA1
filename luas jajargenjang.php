@@ -3,14 +3,13 @@
 //Deklarasi , alas (a) dan tinggi (t)
 $alas =10;
 $tinggi= 5;
-$luas=alas*tinggi
-//Dari jajargenjang
+//Tentukan nilai alas
+//Tentukan nilai tinggi
 echo "alas". $alas;
-echo "tinggi". $tinggi;
-echo "luas". $alas
-//Hitung luas dengan rumus
-$luas=$alas*$tinggi*$luas;
-//Luas=alas*tinggi
-echo "<berhasil luas jajargenjang=", $luas
+echo "<br>tinggi". $tinggi;
+//Hitung luas dengan alas dikali tinggi
+$luas=$alas*$tinggi;
+//Tampilkan hasil pekalian
+echo "<br>hasil luas jajargenjang adalah=". $luas;
 //Selesai
 
